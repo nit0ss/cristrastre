@@ -46,7 +46,6 @@ img {
 /* Hero Section */
 header.hero {
   background: url(../assets/header_bg.jpg) no-repeat center center fixed;
-   /*transform: scaleX(-1);*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -55,9 +54,6 @@ header.hero {
   padding-bottom: 80px;
 }
 
-header.hero.bk-img{
-  
-}
 
 header.hero .hero-text {
   margin-top: 20%;
@@ -69,7 +65,7 @@ header.hero .hero-text {
 
 header.hero .hero-text .welcome-header{
   
-  background-color: rgba(128, 128, 128, 0.5); /* Cambia los valores RGBA según tu preferencia */
+  background-color: rgba(128, 128, 128, 0.65); /* Cambia los valores RGBA según tu preferencia */
   border-radius: 10px; /* Ajusta el valor de border-radius según tu preferencia */
   padding: 30px; /* Ajusta el espacio interno según tu preferencia */
   margin: 0 auto;
@@ -84,7 +80,7 @@ header.hero .hero-text .welcome-header:hover {
 }
 
 header.hero .hero-text .welcome-header1{
-  background-color: rgba(84,44,109, 0.5); /* Cambia los valores RGBA según tu preferencia */
+  background-color: rgba(84,44,109, 0.65 ); /* Cambia los valores RGBA según tu preferencia */
   border-radius: 50px; /* Ajusta el valor de border-radius según tu preferencia */
   padding: 10px; /* Ajusta el espacio interno según tu preferencia */
   margin-left: 20%;
@@ -135,8 +131,10 @@ ul.social-links li a {
   opacity: 0.6;
 }
 ul.social-links li.label {
+  background-color: rgba(128, 128, 128, 0.9); /* Cambia los valores RGBA según tu preferencia */
+  border-radius: 10px; /* Ajusta el valor de border-radius según tu preferencia */
   font-size: 20px;
-  opacity: 0.6;
+  opacity: 1;
   font-weight: 400;
 }
 ul.social-links li a:hover {
