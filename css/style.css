@@ -46,6 +46,7 @@ img {
 /* Hero Section */
 header.hero {
   background: url(../assets/header_bg.jpg) no-repeat center center fixed;
+   /*transform: scaleX(-1);*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -54,17 +55,24 @@ header.hero {
   padding-bottom: 80px;
 }
 
+header.hero.bk-img{
+  
+}
+
 header.hero .hero-text {
   margin-top: 20%;
   margin-bottom: 20%;
+  text-align: center;
+  
   
 }
 
 header.hero .hero-text .welcome-header{
+  
   background-color: rgba(128, 128, 128, 0.5); /* Cambia los valores RGBA según tu preferencia */
   border-radius: 10px; /* Ajusta el valor de border-radius según tu preferencia */
-  padding: 5px; /* Ajusta el espacio interno según tu preferencia */
-  margin: 0;
+  padding: 30px; /* Ajusta el espacio interno según tu preferencia */
+  margin: 0 auto;
   margin-left: 30%;
   margin-right: 30%;
   margin-top : 1px;
